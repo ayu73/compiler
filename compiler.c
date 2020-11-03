@@ -8,7 +8,6 @@
 	   return 1;
    }
 
-   	argv[1] = fopen("sample.txt", "r");
    	char *p = argv[1];
  
     while (*p) {
@@ -54,4 +53,3 @@
     printf("EOF\n");
     return 0;
  }
-
